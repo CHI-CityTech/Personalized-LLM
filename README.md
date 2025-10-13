@@ -1,27 +1,17 @@
-# [Project Title]
-
-<!-- Replace [Project Title] with your actual research project name -->
+Open Source LLM Exploration and Documentation
 
 ## Project Overview
 
-**Research Focus**: [Brief description of your research question or project goals]
+**Research Focus**: This study focuses on building a small, reproducible image-and-text recognition LLMs that can learn the BBS puppet show’s characters and props from paired photos and short captions, then correctly label new, stage-like images at inference time. We will compare a shortlist of permissively licensed, community-supported open-source LLM models under the same data split and metrics, prioritizing simple fine-tuning, reliable Top-1/Top-K accuracy. Currently we are focusing on  The outcome will be a practical recipe—code, configs, and a minimal demo—that BBS (and similar projects) can adopt and extend without heavy compute or proprietary tooling
 
 **CHI Meta-Project Connection**: [List which CHI meta-projects this research contributes to]
 - [ ] META-Balanced-Blended-Space
-- [ ] META-Blended-Shadow-Puppet  
 - [ ] META-Collaborative-AI
-- [ ] META-International-Collaboration
-- [ ] META-Cultural-Popup-Experiences
-- [ ] META-Blended-Reality-Performance-System
-- [ ] Other: [Specify]
+
 
 **Current SRDMPA Phase**: [Select current phase]
 - [ ] **Speculate** - Forming research questions and hypotheses
-- [ ] **Research** - Literature review and background investigation
-- [ ] **Design** - Planning methodology and approach
-- [ ] **Make** - Implementing, building, or conducting research
-- [ ] **Publish** - Documenting and sharing results
-- [ ] **Assess** - Evaluating outcomes and planning next steps
+
 
 ## 🚀 Quick Setup (Complete These Steps First)
 
