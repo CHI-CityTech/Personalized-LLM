@@ -1,0 +1,60 @@
+name: "Timesheet"
+description: "Weekly timesheet for tracking hours, deliverables, and links to work completed."
+title: "Timesheet: [Your Name] - Week of [MM/DD/YYYY]"
+labels: ["timesheet", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Weekly Timesheet
+        Please record your hours and deliverables for this week.  
+        You can edit this issue throughout the week as you progress.
+
+  - type: input
+    id: week_range
+    attributes:
+      label: Week Covered
+      description: "Enter the start and end dates for this week (e.g., Oct 14–Oct 20, 2025)."
+      placeholder: "MM/DD/YYYY - MM/DD/YYYY"
+
+  - type: textarea
+    id: hours_table
+    attributes:
+      label: Hours Worked
+      description: "List the days and hours worked. You may edit this table each day."
+      value: |
+        | Date | Hours | Task Summary |
+        |------|--------|---------------|
+        |      |        |               |
+        |      |        |               |
+        | **Total** | **0** |               |
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables / Work Completed
+      description: "Summarize the work done this week."
+      placeholder: "Example: Completed literature review summary; Edited BSP video segment 3."
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links to Work or Commits
+      description: "Provide GitHub links, shared documents, or other references."
+      placeholder: "Example: https://github.com/CHI-CityTech/Blended-Shadow-Puppet/pull/45"
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Week Status
+      options:
+        - In Progress
+        - Submitted
+        - Approved
+      default: 0
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ✅ *Remember to close this issue when the week’s work is complete. The closing event can trigger updates to your Meta-Project board if linked.*
