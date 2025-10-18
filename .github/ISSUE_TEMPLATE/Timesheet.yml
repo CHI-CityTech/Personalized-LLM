@@ -1,4 +1,4 @@
-name: "Timesheet"
+name: "Timesheet-2"
 description: "Weekly timesheet for tracking hours, deliverables, and links to work completed."
 title: "Timesheet: [Your Name] - Week of [MM/DD/YYYY]"
 labels: ["timesheet", "documentation"]
