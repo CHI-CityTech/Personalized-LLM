@@ -1,4 +1,4 @@
-# [Project Title]
+# [LLM Research]
 
 <!-- Replace [Project Title] with your actual research project name -->
 
