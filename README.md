@@ -1,161 +1,104 @@
-# [LLM Research]
+# BBS-Personal-LLM
 
-<!-- Replace [Project Title] with your actual research project name -->
+## Personalized Large Language Model (LLM) Creation Project
 
-## Project Overview
+## Overview
 
-**Research Focus**: [Brief description of your research question or project goals]
+Welcome to the official GitHub repository for the CHI Research Team's Personalized LLM Initiative, led by student researchers at City Tech. This project aims to design, evaluate, and deploy a lightweight, ethical, and scalable Large Language Model (LLM) tailored for real-time personalization across diverse domains—such as literature, STEM, and digital mediation within the Balanced Reality Platform System (BRPS).
+Our mission is to build an open, responsible, and interdisciplinary AI framework that is transparent, adaptable, and aligned with human values.
 
-**CHI Meta-Project Connection**: [List which CHI meta-projects this research contributes to]
-- [ ] META-Balanced-Blended-Space
-- [ ] META-Blended-Shadow-Puppet  
-- [ ] META-Collaborative-AI
-- [ ] META-International-Collaboration
-- [ ] META-Cultural-Popup-Experiences
-- [ ] META-Blended-Reality-Performance-System
-- [ ] Other: [Specify]
+## Project Objectives
 
-**Current SRDMPA Phase**: [Select current phase]
-- [ ] **Speculate** - Forming research questions and hypotheses
-- [ ] **Research** - Literature review and background investigation
-- [ ] **Design** - Planning methodology and approach
-- [ ] **Make** - Implementing, building, or conducting research
-- [ ] **Publish** - Documenting and sharing results
-- [ ] **Assess** - Evaluating outcomes and planning next steps
+Evaluate existing commercial and open-source LLMs (e.g., ChatGPT, Claude, DeepSeek).
+Design a custom AI system capable of interpreting multimodal inputs and adapting to individual users.
+Implement real-time personalization based on behavior, history, and preferences.
+Ensure data ethics and compliance with standards like GDPR and CCPA.
+Benchmark and continuously optimize the model using feedback loops and RL fine-tuning.
 
-## 🚀 Quick Setup (Complete These Steps First)
+## Project Phases
 
-### 1. Set Up Project Board
-1. **Go to Projects tab** → **New project**
-2. **Select "CHI Research Template"** from organization templates (if available)
-   - OR manually create **Board layout** with columns: Backlog → In Progress → In Review → Done
-3. **Name**: `[Your Project Name] Research Progress`
-4. **Link this repository** to the project
+1. Onboarding & Survey: Team setup, research review, initial LLM evaluations.
+2. Requirements Analysis:	Define personalization levels, compliance boundaries, and data governance.
+3. Model Selection & Training: Develop modular, scalable architecture with API integrations.
+4. Model Implementation: Develop modular, scalable architecture with API integrations.
+5. Testing & Validation: A/B testing, fairness audits, and ethical validations.
+6. Deployment & Optimization:	Real-world deployment, KPI monitoring, and user-driven iteration.
 
-### 2. Update This README
-- [ ] Replace `[Project Title]` with your actual project name
-- [ ] Fill in your research focus and goals
-- [ ] Select your CHI meta-project connections
-- [ ] Choose your current SRDMPA phase
+Leads: Kazi Tasin (Lead), Kazi Rahimu Islam, Naureen Asha
+Faculty Advisor: Prof. David Smith
 
-### 3. Create First Issues
-- [ ] **Milestone Issue**: Define your first major deliverable using the Milestone template
-- [ ] **Research Log Issue**: Start weekly progress tracking using Research Log template
-- [ ] **Label appropriately**: Use `01-speculate` through `06-assess` plus `activity-*` labels
+## Benchmarking Insights
 
-### 4. Follow Detailed Setup
-See [`docs/researcher-setup.md`](docs/researcher-setup.md) for complete configuration guide.
+We conducted a structured evaluation of three major LLMs—ChatGPT, Claude AI, and DeepSeek—by summarizing five articles from domains like economics, quantum computing, diplomacy, and digital realities.
 
----
+Key Findings
 
-## Project Overview
+Criteria                                                                      
+Summarization                                      
+Accuracy                                           
+Analysis                                           
+Hallucination
 
-**Research Focus**: [Brief description of your research question or project goals]
+GPT  
+Summarization: Strong synthesis, slight oversimplification
+Accuracy: Minor omissions 
+Analysis: Good, but shallow in complex topics 
+Hallucination: Moderate risk 
 
-**CHI Meta-Project Connection**: [List which CHI meta-projects this research contributes to]
-- [ ] META-Balanced-Blended-Space
-- [ ] META-Blended-Shadow-Puppet  
-- [ ] META-Collaborative-AI
-- [ ] META-International-Collaboration
-- [ ] META-Cultural-Popup-Experiences
-- [ ] META-Blended-Reality-Performance-System
-- [ ] Other: [Specify]
+Claude 
+Summarization: Most accurate, structured summaries
+Accuracy: Highly factual 
+Analysis: Deep and contextual
+Hallucination: Low 
 
-**Current SRDMPA Phase**: [Select current phase]
-- [ ] **01-Speculate** - Forming research questions and hypotheses
-- [ ] **02-Research** - Literature review and background investigation
-- [ ] **03-Design** - Planning methodology and approach
-- [ ] **04-Make** - Implementing, building, or conducting research
-- [ ] **05-Publish** - Documenting and sharing results
-- [ ] **06-Assess** - Evaluating outcomes and planning next steps
 
-## Getting Started
+DeepSeek
+Summarization: Simplified, lacks political nuance
+Accuracy: Avoids controversial topics
+Analysis: Limited critical depth
+Hallucination: Low but context-dependent
 
-### Prerequisites
-- [List any software, hardware, or knowledge requirements]
-- [Include setup instructions for specialized tools]
+Claude AI outperformed others with its balanced, detailed, and context-aware summaries.
+The evaluation was guided by criteria such as factual consistency, completeness, reasoning, and hallucination rate.
 
-### Getting Started
-1. **Clone this repository** and follow setup in `docs/researcher-setup.md`
-2. **Review project structure** in `docs/repository-structure.md`
-3. **Create your first milestone** using the Milestone issue template
-4. **Start research logging** with weekly Research Log issues
+Tech Stack
 
-### Key Files to Update
-- [ ] **This README**: Replace placeholders with your project details
-- [ ] **CITATION.cff**: Update with your project information
-- [ ] **docs/research-notes/**: Add your initial research questions
-- [ ] **references/meta-projects.md**: Link to relevant CHI meta-projects
+Model Training: PyTorch, HuggingFace Transformers, LlamaCpp
+Evaluation Framework: Custom rubric based on Error Rate (ER), Omission Rate (OR), and Alignment Score (AS)
+Data Sources: Public articles (Forbes, Nvidia, USC, Webisoft, U.S. State Dept)
+Version Control: GitHub, Zotero (Research logs)
+Communication: Discord, BBS (Balanced Blended Space platform)
 
-## Research Progress
+Ethical Commitment
+We are committed to developing a fair, explainable, and user-consent-based AI system. 
+Our LLM incorporates:
 
-### Current Milestones
-[Use GitHub Issues with Milestone template to track major deliverables]
+Transparent training data and logic.
+Bias detection and fairness audits.
+Privacy-by-design principles (anonymization, encryption, access control).
+Alignment with legal standards (GDPR, CCPA).
 
-### Recent Activity
-[Use Research Log issues to document weekly progress]
+Future Directions
 
-### AI Collaboration
-[Use AI Collaboration Report issues to track and evaluate AI tool usage]
+Incorporate reinforcement learning with human feedback (RLHF) for adaptive responses.
+Expand multimodal capabilities (image, sound, and mathematical problem processing).
+Enable cross-platform AI agents for BRPS, education, and public services.
+Launch a web-based interaction demo showcasing our personalized LLM.
 
-## Data and Analysis
+Contact & Contributions
 
-### Data Sources
-[Describe your data sources, collection methods, or experimental setup]
+Interested in collaborating? Join us!
 
-### Key Findings
-[Update as your research progresses - link to notebooks, papers, or presentations]
+Prof. David Smith
+Email: dsmith@citytech.cuny.edu
 
-### Reproducibility
-[Instructions for reproducing your analysis - reference specific notebooks or scripts]
+Student Researchers
+Kazi Tasin: kazi.tasin@mail.citytech.cuny.edu
+Kazi Islam: Kazi.Islam3@mail.citytech.cuny.edu
 
-## Repository Structure
 
-- **`data/`** - Research datasets (raw and processed)
-- **`src/`** - Source code and analysis functions
-- **`notebooks/`** - Jupyter notebooks organized by research phase
-- **`docs/`** - Documentation and research notes
-- **`references/`** - Literature, citations, and external resources
-- **`assets/`** - Figures, presentations, and media files
 
-For detailed explanations, see `docs/repository-structure.md`.
 
-## Contributing
 
-### For Collaborators
-[Instructions for team members joining the project]
 
-### For External Contributors
-See `CONTRIBUTING.md` for guidelines on contributing to this research project.
 
-## Citation
-
-If you use or reference this work, please cite:
-
-```bibtex
-[Your CITATION.cff file will generate the appropriate citation format]
-```
-
-See `CITATION.cff` for complete citation information.
-
-## License
-
-[Specify your license - update LICENSE file accordingly]
-
-## Contact
-
-**Researcher**: [Your name and contact information]  
-**Institution**: City University of New York - New York City College of Technology  
-**CHI Affiliation**: [Your role in the Center for Holistic Integration]  
-**Advisor/Supervisor**: [If applicable]
-
-## Acknowledgments
-
-- **CHI Community** - Center for Holistic Integration research ecosystem
-- **Meta-Project Leaders** - [Acknowledge relevant meta-project coordinators]
-- **AI Collaboration** - [Acknowledge AI tools used and their contribution]
-- **Funding/Support** - [Acknowledge grants, institutions, or other support]
-
----
-
-*This repository was created using the [CHI Research Template](https://github.com/CHI-CityTech/CHI-Research-Template) and follows CHI research methodology and standards.*
