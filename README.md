@@ -24,7 +24,7 @@ Benchmark and continuously optimize the model using feedback loops and RL fine-t
 5. Testing & Validation: A/B testing, fairness audits, and ethical validations.
 6. Deployment & Optimization:	Real-world deployment, KPI monitoring, and user-driven iteration.
 
-Leads: Kazi Tasin (Lead), Kazi Rahimu Islam, Naureen Asha
+Leads: Kazi Tasin (Lead), Kazi Rahimu Islam
 Faculty Advisor: Prof. David Smith
 
 ## Benchmarking Insights
