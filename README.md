@@ -7,6 +7,25 @@
 Welcome to the official GitHub repository for the CHI Research Team's Personalized LLM Initiative, led by student researchers at City Tech. This project aims to design, evaluate, and deploy a lightweight, ethical, and scalable Large Language Model (LLM) tailored for real-time personalization across diverse domains—such as literature, STEM, and digital mediation within the Balanced Reality Platform System (BRPS).
 Our mission is to build an open, responsible, and interdisciplinary AI framework that is transparent, adaptable, and aligned with human values.
 
+## Project Framing and Formal Hypotheses
+
+This project is framed as a practical research question:
+Can a lightweight, open-source, ethically governed personalized LLM pipeline produce useful and trustworthy adaptation across domain and user contexts while remaining reproducible in an academic setting?
+
+Primary hypothesis (H1)
+A lightweight personalized LLM architecture, trained and evaluated with transparent workflows, can outperform non-personalized baselines on task relevance and user alignment without unacceptable increases in hallucination or latency.
+
+Secondary hypotheses
+H2: Multimodal inputs (text plus image/signal features where applicable) improve personalization quality over text-only personalization for targeted use cases.
+H3: Structured feedback loops (human evaluation plus iterative model adjustment) improve alignment scores over static one-pass model tuning.
+H4: Privacy-first data governance and fairness audits can be integrated into the development cycle without materially degrading model utility.
+
+Operational test signals
+- Alignment: higher Alignment Score (AS) and rubric-based relevance across benchmark tasks.
+- Reliability: reduced omission/error rates and controlled hallucination risk.
+- Practicality: acceptable response latency for real-time or near-real-time use.
+- Ethics and compliance: documented bias checks, consent-aware data handling, and GDPR/CCPA-aligned process controls.
+
 ## Project Objectives
 
 Evaluate existing commercial and open-source LLMs (e.g., ChatGPT, Claude, DeepSeek).

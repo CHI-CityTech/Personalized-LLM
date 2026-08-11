@@ -61,6 +61,31 @@ It directly tests **Balanced Blended Space (BBS)** symmetries:
 
 ---
 
+## 2.1   Project Framing and Formal Hypotheses
+
+This scope of work treats the Personalized LLM effort as a testable research program rather than only a build task.
+
+**Framing question**
+Can a lightweight, open-source personalized vision-language pipeline model heritage-aware puppet identity and style differences in ways that are accurate, interpretable, and ethically governable for BRPS use?
+
+**Primary hypothesis (H1)**
+Compared with non-personalized baselines, a personalized pipeline using heritage-aware data and iterative evaluation will improve identification quality (Top-1/Top-3) and style-separation clarity in embedding space while remaining within practical latency constraints.
+
+**Secondary hypotheses**
+- **H2 (Multimodal benefit):** Image+text configurations outperform image-only or text-only variants for identity recognition and semantic consistency.
+- **H3 (Trajectory sensitivity):** Heritage-differentiated training data (Traditional/BSP/Hybrid) yields more coherent and interpretable similarity trajectories than non-stratified training.
+- **H4 (Iteration effect):** Structured evaluation loops (error analysis plus retuning) produce measurable gains over one-pass fine-tuning.
+- **H5 (Ethics-in-practice):** Privacy and cultural ethics checks can be embedded in the workflow without materially reducing model performance.
+
+**Evaluation signals mapped to hypotheses**
+- Top-1/Top-3 classification performance and per-class confusion analysis.
+- Latency per image under local hardware constraints.
+- Embedding-space cluster quality and boundary interpretability for heritage categories.
+- Hallucination and caption-grounding consistency during image-to-text tasks.
+- Documented compliance evidence: consent, provenance, bias review notes, and cultural-context review.
+
+---
+
 ## 3   Roles and Responsibilities
 
 **Kazi Islam — Model Evaluation & Implementation**
